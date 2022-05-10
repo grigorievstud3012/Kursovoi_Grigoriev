@@ -1,0 +1,76 @@
+.pagename {
+  text-align: center;
+  width: 60vw;
+  margin-left: 20vw;
+}
+
+.pagename h1 {
+  font-size: 65px;
+}
+
+.pagename p {
+  font-size: 35px;
+}
+
+article {
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+}
+
+article div {
+  margin: 20px;
+}
+
+article h2 {
+  font-size: 40px;
+}
+
+article p {
+  font-size: 30px;
+}
+
+article div:nth-child(odd) {
+  margin-right: 35vw;
+  text-align: left;
+}
+
+article div:nth-child(odd) p {
+  padding-left: 15px;
+  border-left: 2px solid #f7c305;
+}
+
+article div:nth-child(even) {
+  margin-left: 35vw;
+  text-align: right;
+}
+
+article div:nth-child(even) p {
+  padding-right: 15px;
+  border-right: 2px solid #f7c305;
+}
+
+@media (max-width: 750px) {
+  body header {
+    height: 755px;
+  }
+  .pagename {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pagename {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+  article div:nth-child(odd) {
+    margin-right: 5vw;
+    text-align: left;
+  }
+  article div:nth-child(even) {
+    margin-left: 5vw;
+    text-align: right;
+  }
+}
+/*# sourceMappingURL=service.css.map */

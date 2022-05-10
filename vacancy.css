@@ -1,0 +1,43 @@
+.pagename {
+  text-align: center;
+  width: 60vw;
+  margin-left: 20vw;
+}
+
+.pagename h1 {
+  font-size: 65px;
+}
+
+.pagename p {
+  font-size: 35px;
+}
+
+article div {
+  font-size: 70px;
+  text-align: center;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+@media (max-width: 750px) {
+  body header {
+    height: 755px;
+  }
+  .pagename {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  article div {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pagename {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+}
+/*# sourceMappingURL=vacancy.css.map */

@@ -1,0 +1,66 @@
+.pagename {
+  text-align: center;
+  width: 60vw;
+  margin-left: 20vw;
+}
+
+.pagename h1 {
+  font-size: 65px;
+}
+
+article {
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+}
+
+form {
+  display: block;
+  margin-left: 35vw;
+  font-size: 20px;
+}
+
+form label {
+  display: inline-block;
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+form h2 {
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
+
+input {
+  margin-left: 20px;
+}
+
+input[type="submit"] {
+  margin-left: 10vw;
+}
+
+@media (max-width: 750px) {
+  body header {
+    height: 755px;
+  }
+  .pagename {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  form {
+    margin-left: 15vw;
+  }
+  input[type="submit"] {
+    margin-left: 20vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pagename {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+  input[type="submit"] {
+    margin-left: 15vw;
+  }
+}
+/*# sourceMappingURL=offer.css.map */

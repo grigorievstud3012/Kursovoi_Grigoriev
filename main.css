@@ -1,0 +1,153 @@
+header div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 20px;
+  width: auto;
+}
+
+.firstp {
+  font-size: 50px;
+  width: 30vw;
+  padding-left: 50px;
+}
+
+.secondp {
+  font-size: 30px;
+  width: 50vw;
+  padding-left: 50px;
+}
+
+.thirdp {
+  width: 30vw;
+  font-size: 65px;
+}
+
+.whydesigno {
+  width: 98vw;
+  margin-left: 1vw;
+  margin-bottom: 10vw;
+  margin-top: 10vw;
+}
+
+.whydesigno h1 {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.whydesigno p {
+  font-size: 3vw;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.whydesigno span {
+  display: inline-block;
+  border-bottom: 2px #f7c305 solid;
+  padding-bottom: 20px;
+}
+
+.pluses {
+  width: 98vw;
+  margin-left: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pluses img {
+  height: 50px;
+}
+
+.pluses h2 {
+  display: inline-block;
+  white-space: pre;
+  font-size: 30px;
+}
+
+.pluses p {
+  font-size: 22px;
+  padding-left: 5px;
+  border-left: 2px solid #f7c305;
+}
+
+.pluses > div {
+  width: 300px;
+  margin-right: 3vw;
+}
+
+@media (max-width: 1400px) {
+  .thirdp {
+    font-size: 60px;
+    margin-right: 50px;
+  }
+  .pluses > div {
+    width: 400px;
+    margin-right: 6vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .thirdp {
+    font-size: 55px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .thirdp {
+    font-size: 50px;
+    margin-right: 100px;
+  }
+  .whydesigno h1 {
+    font-size: 6vw;
+  }
+  .whydesigno p {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 930px) {
+  .pluses > div {
+    width: 800px;
+    margin-left: 5px;
+    margin-right: auto;
+    text-align: center;
+  }
+  .pluses {
+    margin-left: 1vw;
+  }
+}
+
+@media (max-width: 750px) {
+  body header {
+    height: 755px;
+  }
+  header div:last-child {
+    margin-left: 0px;
+    width: auto;
+  }
+  .firstp {
+    font-size: 35px;
+    padding-left: 10px;
+  }
+  .secondp {
+    font-size: 25px;
+    margin-top: 20px;
+    width: 50vw;
+    padding-left: 10px;
+  }
+  .thirdp {
+    font-size: 40px;
+    margin-right: 180px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Times New Roman";
+}
+
+footer {
+  position: absolute;
+  background-color: #252426;
+  font-size: 25px;
+  color: white;
+  width: 100vw;
+}
+
+footer img {
+  width: 50px;
+  border: 3px solid white;
+  margin-right: -5px;
+  padding: 5px;
+}
+
+footer div:first-child {
+  margin-left: 90px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer div:last-child {
+  float: right;
+  color: white;
+  height: 60px;
+  margin-right: 20px;
+  margin-top: -50px;
+}
+
+.footimages {
+  margin-left: 35px;
+  padding-bottom: 20px;
+}
+
+.footimages img:hover {
+  opacity: 0.5;
+}
+
+header {
+  width: 101vw;
+  display: table;
+  background-color: #f7c305;
+  margin-top: -50px;
+}
+
+.container {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.toggle-icon {
+  font-family: Georgia;
+  font-size: 50px;
+  margin-top: 100px;
+  color: black;
+  position: absolute;
+}
+
+.toggle-menu {
+  width: 60vw;
+}
+
+li {
+  margin-right: 15px;
+}
+
+figure img {
+  margin-bottom: -45px;
+}
+
+figcaption {
+  color: black;
+  font-size: 40px;
+  font-family: "ItalianaRegular";
+  margin-left: 0px;
+}
+
+#logo {
+  font-size: 40px;
+  font-family: ItalianaRegular;
+  margin-left: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+#offer {
+  background-color: #000032;
+  font-size: 25px;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  margin-right: 40px;
+  float: right;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+@media (min-width: 1200px) {
+  #offer {
+    margin-left: 0vw;
+  }
+}
+
+#logo {
+  float: left;
+  font-size: 40px;
+  font-family: ItalianaRegular;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav {
+  width: 80vw;
+  margin-top: 45px;
+  margin-left: 25px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 0px;
+}
+
+nav ul li {
+  float: left;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 25px;
+  display: inline-block;
+  padding: 20px 2vw;
+  margin-left: -15px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #e4b200;
+}
+
+header input[type="checkbox"],
+header label {
+  margin-left: auto;
+  display: none;
+}
+
+@media (max-width: 820px) {
+  footer div:last-child {
+    padding-top: 40px;
+  }
+  footer {
+    height: 190px;
+  }
+}
+
+@media (max-width: 750px) {
+  #offer {
+    margin-left: -70px;
+    margin-bottom: 80px;
+  }
+  header {
+    padding-top: 20px;
+  }
+  #logo {
+    padding: 0;
+  }
+  header label {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: -45px;
+  }
+  header input[type="checkbox"]:checked ~ nav {
+    display: block;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    top: 110px;
+    margin-left: -10px;
+    width: auto;
+    background-color: #f7c305;
+    z-index: 99;
+    height: 570px;
+    padding: 0px;
+  }
+  nav ul {
+    width: auto;
+  }
+  nav ul li {
+    float: none;
+    width: 100vw;
+    display: table;
+    padding-bottom: 35px;
+  }
+  nav ul li a {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+  }
+}
+
+@font-face {
+  font-family: "ItalianaRegular";
+  src: url(fonts/Italiana-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+/*# sourceMappingURL=all.css.map */

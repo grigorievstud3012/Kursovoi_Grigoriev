@@ -1,0 +1,11 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <line stroke="#00006e" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="46.42494" x2="76.0819" y1="46.53118" x1="22.65049" fill="none"/>
+  <rect stroke="#000037" id="svg_12" height="14.09067" width="13.35785" y="46.66021" x="22.69983" fill="#000038"/>
+  <rect stroke="#000037" id="svg_14" height="14.09067" width="13.35785" y="31.89524" x="62.3317" fill="#000037"/>
+  <line stroke="#00006e" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_18" y2="32" x2="62" y1="46.53118" x1="22.65049" fill="none"/>
+  <line stroke="#00006e" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_19" y2="46.81965" x2="75.93568" y1="60.84631" x1="36.4471" fill="none"/>
+ </g>
+
+</svg>

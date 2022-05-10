@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: rgb(37, 36, 38);
+  font-size: 25px;
+  color: white;
+  width: 100vw;
+}
+
+footer img {
+  width: 50px;
+  border: 2px solid white;
+  margin-right: -7px;
+  padding: 5px;
+}
+
+footer div:first-child {
+  margin-left: 90px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer div:last-child {
+  float: right;
+  color: white;
+  height: 60px;
+  margin-right: 20px;
+  margin-top: -50px;
+}
+
+.footimages {
+  margin-left: 35px;
+  padding-bottom: 20px;
+}
+header {
+  width: 102vw;
+  display: table;
+  background-color: rgb(247, 195, 5);
+  margin-top: -50px;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.toggle-icon {
+  font-family: Georgia;
+  font-size: 50px;
+  margin-top: 100px;
+  color: black;
+  position: absolute;
+}
+.toggle-menu {
+  width: 60vw;
+}
+li {
+  margin-right: 15px;
+}
+
+figure img {
+  margin-bottom: -45px;
+}
+
+figcaption {
+  font-size: 40px;
+  font-family: "ItalianaRegular";
+  margin-left: 0px;
+}
+
+#logo {
+  float: left;
+  font-size: 40px;
+  font-family: ItalianaRegular;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+  #offer {
+    margin-left: 0vw;
+  }
+}
+#logo {
+  float: left;
+  font-size: 40px;
+  font-family: ItalianaRegular;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+nav {
+  width: 80vw;
+  margin-top: 45px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 0px;
+}
+nav ul li {
+  float: left;
+  flex-grow: 1;
+  display: block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 25px;
+  display: inline-block;
+  padding: 20px 2vw;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: rgb(228, 178, 0);
+}
+input[type="checkbox"],
+label {
+  display: none;
+}
+
+#offer {
+  background-color: rgb(0, 0, 50);
+  font-size: 25px;
+  color: white;
+  position: relative;
+  margin-top: 80px;
+  margin-right: 30px;
+  float: right;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+@media (max-width: 820px) {
+  footer div:last-child {
+    padding-top: 40px;
+  }
+  footer {
+    height: 190px;
+  }
+}
+
+@media (max-width: 740px) {
+  #offer {
+    margin-left: -70px;
+  }
+  header {
+    padding-top: 20px;
+  }
+  #logo {
+    padding: 0;
+  }
+  label {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: -45px;
+  }
+  input[type="checkbox"]:checked ~ nav {
+    display: block;
+  }
+  nav {
+    display: none;
+    position: absolute;
+    top: 110px;
+    margin-left: -10px;
+    width: auto;
+    background-color: rgb(247, 195, 5);
+    z-index: 99;
+    height: 570px;
+    padding: 0px;
+  }
+  nav ul {
+    width: auto;
+  }
+  nav ul li {
+    float: none;
+    width: 100vw;
+    display: table;
+    padding-bottom: 35px;
+  }
+  nav ul li a {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+  }
+}
+
+@font-face {
+  font-family: "ItalianaRegular";
+  src: url(fonts/Italiana-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}

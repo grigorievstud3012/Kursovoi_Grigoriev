@@ -1,0 +1,75 @@
+.pagename {
+  text-align: center;
+  width: 60vw;
+  margin-left: 20vw;
+  h1 {
+    font-size: 65px;
+  }
+  p {
+    font-size: 35px;
+  }
+}
+
+article > div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+}
+
+.portfwork {
+  width: 50vw;
+  height: 50vw;
+  img {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    z-index: -1;
+  }
+  div {
+    width: 50vw;
+    height: 50vw;
+    color: white;
+    transition: padding-top 2s, opacity 1s;
+    opacity: 0;
+    padding-top: 10vw;
+  }
+  h3,
+  p {
+    margin-left: 10vw;
+    margin-right: 5vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  p {
+    font-size: 4vw;
+  }
+  div:hover {
+    opacity: 1;
+    padding-top: 5vw;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 750px) {
+  body header {
+    height: 755px;
+  }
+  .pagename {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  article div {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pagename {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+}
