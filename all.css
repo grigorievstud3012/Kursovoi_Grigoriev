@@ -188,6 +188,9 @@ header label {
   #logo {
     padding: 0;
   }
+  footer div:last-child {
+    height: 12px;
+  }
   header label {
     float: right;
     display: inline-block;

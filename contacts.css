@@ -111,5 +111,13 @@ article span {
     width: 130px;
     margin-left: 0px;
   }
+  .subcontact {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subcontact > div {
+    margin-right: 10px;
+  }
 }
 /*# sourceMappingURL=contacts.css.map */

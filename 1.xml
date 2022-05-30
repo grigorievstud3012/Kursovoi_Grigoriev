@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<formlist>
+    <form>
+        <name>Tourma</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>2</type>
+    </form>
+
+    <form>
+        <name>Calc</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>4</type>
+    </form>
+
+    <form>
+        <name>Sea Stone</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>4</type>
+    </form>
+
+    <form>
+        <name>AmurZoo</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>2</type>
+    </form>
+
+    <form>
+        <name>Flowershop</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>1</type>
+    </form>
+
+    <form>
+        <name>Saphran</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>4</type>
+    </form>
+
+    <form>
+        <name>HourIs</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>4</type>
+    </form>
+
+    <form>
+        <name>UralBumaga</name>
+        <address>...</address>
+        <phonenumber>...</phonenumber>
+        <email>...@gmail.com</email>
+        <type>1</type>
+    </form>
+</formlist>

@@ -1,3 +1,6 @@
+$primary-color1: rgb(247, 195, 5);
+$primary-color2: rgb(37, 36, 38);
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -6,7 +9,7 @@ body {
 
 footer {
   position: absolute;
-  background-color: rgb(37, 36, 38);
+  background-color: $primary-color2;
   font-size: 25px;
   color: white;
   width: 100vw;
@@ -41,7 +44,7 @@ footer {
 header {
   width: 101vw;
   display: table;
-  background-color: rgb(247, 195, 5);
+  background-color: $primary-color1;
   margin-top: -50px;
 }
 .container {
@@ -164,6 +167,9 @@ header label {
   #logo {
     padding: 0;
   }
+  footer div:last-child {
+    height: 12px;
+  }
   header label {
     float: right;
     display: inline-block;
@@ -179,7 +185,7 @@ header label {
     top: 110px;
     margin-left: -10px;
     width: auto;
-    background-color: rgb(247, 195, 5);
+    background-color: $primary-color1;
     z-index: 99;
     height: 570px;
     padding: 0px;
